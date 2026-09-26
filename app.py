@@ -231,7 +231,7 @@ with col_nav1:
 with col_nav2:
     with st.expander("採用側（管理）画面へ"):
         admin_pass = st.text_input("パスワードを入力", type="password")
-        if admin_pass == "7777": 
+        if admin_pass == "1978": 
             if st.button("ログインして切り替え"):
                 st.session_state.view_mode = "admin"
                 st.rerun()
